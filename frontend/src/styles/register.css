@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+form input {
+    min-height: 3rem;
+    width: 20rem;
+    /* border-radius: 15px; */
+    margin-top: .5rem;
+}
+
+.register-btn {
+    background: rgb(92, 131, 216);
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    min-height: 3rem;
+    margin-top: 1rem;
+}
+
+form p {
+    text-align: center;
+}
+
+form p .link {
+    color: rgb(23, 23, 231);
+    cursor: pointer;
+    text-decoration: underline;
+}

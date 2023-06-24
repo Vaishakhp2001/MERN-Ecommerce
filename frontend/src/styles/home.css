@@ -1,0 +1,116 @@
+.carousel {
+    margin-top: 2rem;
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel h2 {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    color: #FFF;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 121.8%;
+    text-transform: capitalize;
+}
+
+.carousel h2 span {
+    font-weight: 800;
+}
+
+.best-deals {
+    margin-top: 3rem;
+    padding: 0 5rem;
+}
+
+.best-deals h5 {
+    color: var(--text-black, #000);
+font-size: 28px;
+font-family: Poppins;
+font-weight: 600;
+}
+
+.best-deals .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    padding: 1rem;
+}
+
+.addcart-btn {
+    margin-left: 10px;
+    display: inline-block;
+    background: var(--products, #000000);
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.addcart-btn:hover {
+    background: var(--products, #ffffff);
+    color: #000000;
+}
+
+.newsletter {
+    background: var(--products, #3187ED);
+    padding: 2rem;
+}
+
+.newsletter .row {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.newsletter .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0.3rem 0.3rem 2rem;
+    border-radius: 12px;
+    background: var(--white, #FFF);
+    
+}
+
+.newsletter .input p {
+    color: var(--text-light, #8D8D8D);
+}
+
+.newsletter .input .subscribe {
+    color: #ffffff;
+    border: none;
+    padding: 1rem;
+}
+
+.newsletter .col-md-7 {
+    display: flex;
+}
+
+.newsletter .text {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.subscribe {
+    border-radius: 12px;
+    background: var(--text-2, #4D4D4D);
+}

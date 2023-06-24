@@ -1,0 +1,74 @@
+.footer {
+    display: flex;
+    padding: 5rem 8rem;
+    align-items: start;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer h6 {
+    font-weight: bold;
+}
+
+.footer p {
+    color: var(--text-light, #8D8D8D);
+}
+
+.footer .icon {
+    border-radius: 12px;
+    background: var(--light, #F8F8F8);
+    width: 5rem;
+    height: 3.5rem;
+    margin: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .chat {
+    border-radius: 12px;
+    border: 1px solid #3187ED;
+    padding: 1rem 2rem;
+    color: var(--products, #3187ED);
+}
+
+.footer .install {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .app-store {
+    display: flex;
+    border-radius: 12px;
+    background: #232323;
+    color: #FFFFFF;
+    min-height: 5rem;
+    min-width: 14rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer .google-play {
+    margin-left: 10px;
+    display: flex;
+    border-radius: 12px;
+    background: #232323;
+    color: #FFFFFF;
+    min-height: 5rem;
+    min-width: 12rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.install p {
+    color: #FFFFFF;
+}
