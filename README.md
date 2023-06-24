@@ -1,6 +1,6 @@
 ## Getting Started
 
-This is a MERN stack application where the backend is implemented in Node.js, the frontend in React, and the database in MongoDB.
+This is a MERN stack application where the backend is implemented in Node.js with the express framework, the frontend in React with redux state management, and the database in MongoDB.
 
 ### Prerequisites
 
