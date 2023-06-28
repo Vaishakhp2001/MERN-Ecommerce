@@ -29,7 +29,8 @@ export const getCart = () => async(dispatch) => {
         const { data } = await axios.get('/api/cart/get', config);
         dispatch({ type: GET_CART_SUCCESS, payload: data.products.products });
     } catch(error) {
-        dispatch({ type: GET_CART_ERR, payload: error.response.data });
+        console.log("error cart", error)
+        dispatch({ type: GET_CART_ERR, payload: error });
     }
 }
 
