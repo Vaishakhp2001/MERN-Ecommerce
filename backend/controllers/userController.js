@@ -20,7 +20,7 @@ export const userLoginController = async(req, res, next) => {
             return res.status(401).json({ error: "Invalid login credentials" });
         }
 
-        const secret = process.env.JWT_SECRET
+        const secret = process.env.JWT_SECRET || 'secret'
 
         const token = jwt.sign({ _id: user._id }, secret);
 
